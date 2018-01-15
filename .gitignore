@@ -1,2 +1,3 @@
-config
+kube.config
+busbar.config
 version.txt

@@ -31,7 +31,7 @@ fi
 
 ### Action! o/
 # Copy config file
-cp ~/.kube/config .
+cp ~/.kube/config ./kube.config
 
 # Increment version number on version.txt file
 current_versions=$(curl --silent  http://${private_docker_registry}/v2/${app_name}/tags/list)
